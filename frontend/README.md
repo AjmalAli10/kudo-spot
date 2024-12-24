@@ -2,6 +2,33 @@
 
 React-based frontend for the KudoSpot employee engagement platform.
 
+## Setup Instructions
+
+1. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+2. Start development server:
+
+   ```bash
+   pnpm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   pnpm build
+   ```
+
+## Available Scripts
+
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm preview` - Preview production build
+- `pnpm lint` - Run ESLint
+- `pnpm format` - Format code with Prettier
+
 ## Tech Stack
 
 - React.js 18.3.1
@@ -41,33 +68,6 @@ frontend/
 - Interactive analytics dashboard with Chart.js
 - Form validation and error handling
 - Optimized performance with memoization
-
-## Setup Instructions
-
-1. Install dependencies:
-
-   ```bash
-   pnpm install
-   ```
-
-2. Start development server:
-
-   ```bash
-   pnpm run dev
-   ```
-
-3. Build for production:
-   ```bash
-   pnpm build
-   ```
-
-## Available Scripts
-
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-- `pnpm format` - Format code with Prettier
 
 ## Environment Variables
 
